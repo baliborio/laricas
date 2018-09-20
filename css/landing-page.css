@@ -1,0 +1,115 @@
+body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3, 
+h4,
+h5,
+h6 {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+h2 {
+  color: black;
+}
+
+p {
+  color: black;
+}
+
+
+header.masthead {
+  position: relative;
+  background-color: #ffffff;
+  background: url("../img/headpizza.jpg") no-repeat center center;
+  -webkit-background-size: auto;
+  -moz-background-size: auto;
+  -o-background-size: auto;
+  background-size: auto;
+  padding-top: 6.5rem;
+  padding-bottom: 6.5rem;
+}
+
+header.masthead .overlay {
+  position: relative;
+  background-color: #ffffff;
+  height: 50%;
+  width: 50%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+header.masthead h1 {
+  font-size: 2rem;
+}
+
+
+.showcase .showcase-text {
+  padding: 3rem;
+}
+
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+
+i.fas.fa-utensils.m-auto.text-primary{
+      color: #FFA500 !important;
+}
+
+i.fas.fa-stroopwafel.m-auto.text-primary{
+      color: #FFA500 !important;
+}
+
+i.fas.fa-phone.m-auto.text-primary{
+      color: #FFA500 !important;
+}
+
+i.fas.fa-users.m-auto.text-primary{
+      color: #FFA500 !important;
+}
+
+.features-icons {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.features-icons .features-icons-item {
+  max-width: 20rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon {
+  height: 7rem;
+
+}
+
+.features-icons .features-icons-item .features-icons-icon i {
+  font-size: 4.5rem;
+  
+}
+
+.features-icons .features-icons-item:hover .features-icons-icon i {
+  font-size: 5rem;
+}
+
+a {
+    color: #ffa500;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffa500;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+footer.footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
